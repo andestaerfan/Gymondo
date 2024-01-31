@@ -37,6 +37,7 @@ struct ExercisesListView: View {
                                 .stroke()
                         })
                         .padding(.horizontal)
+                        .contentShape(Rectangle())
                         .onAppear {
                             store.didAppear(index)
                         }
