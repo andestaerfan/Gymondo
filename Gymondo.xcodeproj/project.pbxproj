@@ -45,6 +45,7 @@
 		E2440CFD2B6A958C0085792A /* ExercisesListStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440CF72B6A958C0085792A /* ExercisesListStoreTests.swift */; };
 		E2440CFE2B6A958C0085792A /* MainExercisesListCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440CF82B6A958C0085792A /* MainExercisesListCoordinatorTests.swift */; };
 		E2440D002B6A95AD0085792A /* MockImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440CFF2B6A95AD0085792A /* MockImageLoader.swift */; };
+		E2440D022B6A965E0085792A /* AppConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440D012B6A965E0085792A /* AppConstantsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		E2440CF72B6A958C0085792A /* ExercisesListStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesListStoreTests.swift; sourceTree = "<group>"; };
 		E2440CF82B6A958C0085792A /* MainExercisesListCoordinatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExercisesListCoordinatorTests.swift; sourceTree = "<group>"; };
 		E2440CFF2B6A95AD0085792A /* MockImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockImageLoader.swift; sourceTree = "<group>"; };
+		E2440D012B6A965E0085792A /* AppConstantsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstantsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,9 +216,10 @@
 		E2440BB82B6A90430085792A /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				E2440BB92B6A90430085792A /* Network */,
+				E2440D012B6A965E0085792A /* AppConstantsTests.swift */,
 				E2440BC62B6A90430085792A /* Extension.swift */,
 				E2440BC72B6A90430085792A /* MockData.json */,
+				E2440BB92B6A90430085792A /* Network */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				E2440BCB2B6A90430085792A /* MockData.swift in Sources */,
 				E2440BC92B6A90430085792A /* MockDataRequest.swift in Sources */,
 				E2440BD42B6A90430085792A /* Extension.swift in Sources */,
+				E2440D022B6A965E0085792A /* AppConstantsTests.swift in Sources */,
 				E2440CFC2B6A958C0085792A /* MainExercisesImageHandler.swift in Sources */,
 				E2440BD02B6A90430085792A /* NetworkDataRequestTests.swift in Sources */,
 				E2440BCE2B6A90430085792A /* MockNetworkRequest.swift in Sources */,
