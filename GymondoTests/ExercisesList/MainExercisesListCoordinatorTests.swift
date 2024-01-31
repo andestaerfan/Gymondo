@@ -35,4 +35,18 @@ final class MainExercisesListCoordinatorTests: XCTestCase {
         let hostingController = nav.viewControllers.first as? UIHostingController<ExercisesListView>
         XCTAssertNotNil(hostingController?.rootView as? ExercisesListView)
     }
+    
+    func test_didTapOn() {
+        //Given
+        store.exercises = [.init(id: 1, name: "")]
+        
+        //When
+        sut.didTapOn(index: 0)
+        sut.didTapOn(index: 0)
+        sut.didTapOn(index: 1)
+        sut.didTapOn(index: -1)
+        
+        //Then
+        XCTAssertEqual(sut.childCoordinators.count, 1)
+    }
 }

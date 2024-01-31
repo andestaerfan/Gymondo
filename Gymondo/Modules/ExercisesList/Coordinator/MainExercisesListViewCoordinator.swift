@@ -35,6 +35,12 @@ extension MainExercisesListViewCoordinator: ExercisesListViewCoordinator {
         showExerciseDetail(store.exercises[index].id)
     }
     private func showExerciseDetail(_ id: Int) {
+        let factory = ExerciseDetailFactory()
+        let coordinator = MainExerciseDetailCoordinator(navigationController: navigationController,
+                                                    viewModel: factory.makeExerciseDetailViewModel(with: id))
+        childCoordinators = [coordinator]
+        coordinator.parentCoordinator = self
+        coordinator.start()
     }
 }
 extension MainExercisesListViewCoordinator {
@@ -43,6 +49,8 @@ extension MainExercisesListViewCoordinator {
         if navigationController.viewControllers.contains(where: { $0 == fromViewController }) {
             return
         }
-        
+        if let detailVC = fromViewController as? ExerciseDetailTableViewController, let coordinator = detailVC.coordinator as? Coordinator {
+            childDidFinish(coordinator)
+        }
     }
 }
