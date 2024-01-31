@@ -28,9 +28,11 @@ final class APIRequestClient: APIRequest {
     func request<T: Decodable>(with request: NetworkRequestModel) -> AnyPublisher<T, Error> {
         return networkRequester
             .createRequest(request: request)
-            .flatMap { self.dataRequest.request(with: $0) }
-            .tryMap { data in
-                try self.decoder.decode(T.self, from: data)
+            .flatMap { [dataRequest] in
+                dataRequest.request(with: $0)
+            }
+            .tryMap { [decoder] data in
+                try decoder.decode(T.self, from: data)
             }
             .eraseToAnyPublisher()
     }
