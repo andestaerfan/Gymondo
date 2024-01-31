@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2440B722B6A8FE60085792A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440B712B6A8FE60085792A /* AppDelegate.swift */; };
+		E2440B742B6A8FE60085792A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440B732B6A8FE60085792A /* SceneDelegate.swift */; };
+		E2440B762B6A8FE60085792A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440B752B6A8FE60085792A /* ViewController.swift */; };
+		E2440B792B6A8FE60085792A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2440B772B6A8FE60085792A /* Main.storyboard */; };
+		E2440B7B2B6A8FE70085792A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2440B7A2B6A8FE70085792A /* Assets.xcassets */; };
+		E2440B7E2B6A8FE80085792A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2440B7C2B6A8FE70085792A /* LaunchScreen.storyboard */; };
+		E2440B892B6A8FE80085792A /* GymondoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440B882B6A8FE80085792A /* GymondoTests.swift */; };
+		E2440B932B6A8FE80085792A /* GymondoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440B922B6A8FE80085792A /* GymondoUITests.swift */; };
+		E2440B952B6A8FE80085792A /* GymondoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440B942B6A8FE80085792A /* GymondoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2440B852B6A8FE80085792A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2440B662B6A8FE60085792A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2440B6D2B6A8FE60085792A;
+			remoteInfo = Gymondo;
+		};
+		E2440B8F2B6A8FE80085792A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2440B662B6A8FE60085792A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2440B6D2B6A8FE60085792A;
+			remoteInfo = Gymondo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2440B6E2B6A8FE60085792A /* Gymondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2440B712B6A8FE60085792A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2440B732B6A8FE60085792A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2440B752B6A8FE60085792A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2440B782B6A8FE60085792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2440B7A2B6A8FE70085792A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2440B7D2B6A8FE70085792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2440B7F2B6A8FE80085792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2440B842B6A8FE80085792A /* GymondoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymondoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2440B882B6A8FE80085792A /* GymondoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymondoTests.swift; sourceTree = "<group>"; };
+		E2440B8E2B6A8FE80085792A /* GymondoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymondoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2440B922B6A8FE80085792A /* GymondoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymondoUITests.swift; sourceTree = "<group>"; };
+		E2440B942B6A8FE80085792A /* GymondoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymondoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2440B6B2B6A8FE60085792A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440B812B6A8FE80085792A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440B8B2B6A8FE80085792A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2440B652B6A8FE60085792A = {
+			isa = PBXGroup;
+			children = (
+				E2440B702B6A8FE60085792A /* Gymondo */,
+				E2440B872B6A8FE80085792A /* GymondoTests */,
+				E2440B912B6A8FE80085792A /* GymondoUITests */,
+				E2440B6F2B6A8FE60085792A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2440B6F2B6A8FE60085792A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2440B6E2B6A8FE60085792A /* Gymondo.app */,
+				E2440B842B6A8FE80085792A /* GymondoTests.xctest */,
+				E2440B8E2B6A8FE80085792A /* GymondoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2440B702B6A8FE60085792A /* Gymondo */ = {
+			isa = PBXGroup;
+			children = (
+				E2440B712B6A8FE60085792A /* AppDelegate.swift */,
+				E2440B732B6A8FE60085792A /* SceneDelegate.swift */,
+				E2440B752B6A8FE60085792A /* ViewController.swift */,
+				E2440B772B6A8FE60085792A /* Main.storyboard */,
+				E2440B7A2B6A8FE70085792A /* Assets.xcassets */,
+				E2440B7C2B6A8FE70085792A /* LaunchScreen.storyboard */,
+				E2440B7F2B6A8FE80085792A /* Info.plist */,
+			);
+			path = Gymondo;
+			sourceTree = "<group>";
+		};
+		E2440B872B6A8FE80085792A /* GymondoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2440B882B6A8FE80085792A /* GymondoTests.swift */,
+			);
+			path = GymondoTests;
+			sourceTree = "<group>";
+		};
+		E2440B912B6A8FE80085792A /* GymondoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2440B922B6A8FE80085792A /* GymondoUITests.swift */,
+				E2440B942B6A8FE80085792A /* GymondoUITestsLaunchTests.swift */,
+			);
+			path = GymondoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2440B6D2B6A8FE60085792A /* Gymondo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2440B982B6A8FE80085792A /* Build configuration list for PBXNativeTarget "Gymondo" */;
+			buildPhases = (
+				E2440B6A2B6A8FE60085792A /* Sources */,
+				E2440B6B2B6A8FE60085792A /* Frameworks */,
+				E2440B6C2B6A8FE60085792A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gymondo;
+			productName = Gymondo;
+			productReference = E2440B6E2B6A8FE60085792A /* Gymondo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2440B832B6A8FE80085792A /* GymondoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2440B9B2B6A8FE80085792A /* Build configuration list for PBXNativeTarget "GymondoTests" */;
+			buildPhases = (
+				E2440B802B6A8FE80085792A /* Sources */,
+				E2440B812B6A8FE80085792A /* Frameworks */,
+				E2440B822B6A8FE80085792A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2440B862B6A8FE80085792A /* PBXTargetDependency */,
+			);
+			name = GymondoTests;
+			productName = GymondoTests;
+			productReference = E2440B842B6A8FE80085792A /* GymondoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2440B8D2B6A8FE80085792A /* GymondoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2440B9E2B6A8FE80085792A /* Build configuration list for PBXNativeTarget "GymondoUITests" */;
+			buildPhases = (
+				E2440B8A2B6A8FE80085792A /* Sources */,
+				E2440B8B2B6A8FE80085792A /* Frameworks */,
+				E2440B8C2B6A8FE80085792A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2440B902B6A8FE80085792A /* PBXTargetDependency */,
+			);
+			name = GymondoUITests;
+			productName = GymondoUITests;
+			productReference = E2440B8E2B6A8FE80085792A /* GymondoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2440B662B6A8FE60085792A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E2440B6D2B6A8FE60085792A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E2440B832B6A8FE80085792A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E2440B6D2B6A8FE60085792A;
+					};
+					E2440B8D2B6A8FE80085792A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E2440B6D2B6A8FE60085792A;
+					};
+				};
+			};
+			buildConfigurationList = E2440B692B6A8FE60085792A /* Build configuration list for PBXProject "Gymondo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2440B652B6A8FE60085792A;
+			productRefGroup = E2440B6F2B6A8FE60085792A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2440B6D2B6A8FE60085792A /* Gymondo */,
+				E2440B832B6A8FE80085792A /* GymondoTests */,
+				E2440B8D2B6A8FE80085792A /* GymondoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2440B6C2B6A8FE60085792A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440B7E2B6A8FE80085792A /* LaunchScreen.storyboard in Resources */,
+				E2440B7B2B6A8FE70085792A /* Assets.xcassets in Resources */,
+				E2440B792B6A8FE60085792A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440B822B6A8FE80085792A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440B8C2B6A8FE80085792A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2440B6A2B6A8FE60085792A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440B762B6A8FE60085792A /* ViewController.swift in Sources */,
+				E2440B722B6A8FE60085792A /* AppDelegate.swift in Sources */,
+				E2440B742B6A8FE60085792A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440B802B6A8FE80085792A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440B892B6A8FE80085792A /* GymondoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2440B8A2B6A8FE80085792A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2440B952B6A8FE80085792A /* GymondoUITestsLaunchTests.swift in Sources */,
+				E2440B932B6A8FE80085792A /* GymondoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2440B862B6A8FE80085792A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2440B6D2B6A8FE60085792A /* Gymondo */;
+			targetProxy = E2440B852B6A8FE80085792A /* PBXContainerItemProxy */;
+		};
+		E2440B902B6A8FE80085792A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2440B6D2B6A8FE60085792A /* Gymondo */;
+			targetProxy = E2440B8F2B6A8FE80085792A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2440B772B6A8FE60085792A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2440B782B6A8FE60085792A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2440B7C2B6A8FE70085792A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2440B7D2B6A8FE70085792A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2440B962B6A8FE80085792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2440B972B6A8FE80085792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2440B992B6A8FE80085792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54HDDP27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gymondo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erfan.andesta.Gymondo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2440B9A2B6A8FE80085792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54HDDP27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gymondo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erfan.andesta.Gymondo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2440B9C2B6A8FE80085792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54HDDP27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erfan.andesta.GymondoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gymondo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gymondo";
+			};
+			name = Debug;
+		};
+		E2440B9D2B6A8FE80085792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54HDDP27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erfan.andesta.GymondoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gymondo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gymondo";
+			};
+			name = Release;
+		};
+		E2440B9F2B6A8FE80085792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54HDDP27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erfan.andesta.GymondoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gymondo;
+			};
+			name = Debug;
+		};
+		E2440BA02B6A8FE80085792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54HDDP27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erfan.andesta.GymondoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gymondo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2440B692B6A8FE60085792A /* Build configuration list for PBXProject "Gymondo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440B962B6A8FE80085792A /* Debug */,
+				E2440B972B6A8FE80085792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2440B982B6A8FE80085792A /* Build configuration list for PBXNativeTarget "Gymondo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440B992B6A8FE80085792A /* Debug */,
+				E2440B9A2B6A8FE80085792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2440B9B2B6A8FE80085792A /* Build configuration list for PBXNativeTarget "GymondoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440B9C2B6A8FE80085792A /* Debug */,
+				E2440B9D2B6A8FE80085792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2440B9E2B6A8FE80085792A /* Build configuration list for PBXNativeTarget "GymondoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2440B9F2B6A8FE80085792A /* Debug */,
+				E2440BA02B6A8FE80085792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2440B662B6A8FE60085792A /* Project object */;
+}
