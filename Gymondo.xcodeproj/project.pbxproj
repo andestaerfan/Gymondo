@@ -17,6 +17,17 @@
 		E21277032B6A9899008FB247 /* ExerciseDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21276F72B6A9899008FB247 /* ExerciseDetailTableViewController.swift */; };
 		E21277042B6A9899008FB247 /* MainExerciseDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21276F92B6A9899008FB247 /* MainExerciseDetailUseCase.swift */; };
 		E21277052B6A9899008FB247 /* ExerciseDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21276FB2B6A9899008FB247 /* ExerciseDetailFactory.swift */; };
+		E21277162B6A997B008FB247 /* MockExerciseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277082B6A997A008FB247 /* MockExerciseDetailViewModel.swift */; };
+		E21277172B6A997B008FB247 /* MockExerciseDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277092B6A997A008FB247 /* MockExerciseDetailUseCase.swift */; };
+		E21277192B6A997B008FB247 /* MockExerciseDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E212770B2B6A997A008FB247 /* MockExerciseDetailCoordinator.swift */; };
+		E212771A2B6A997B008FB247 /* ExerciseImagesDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E212770D2B6A997A008FB247 /* ExerciseImagesDataSourceTests.swift */; };
+		E212771B2B6A997B008FB247 /* ExerciseDetailDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E212770E2B6A997A008FB247 /* ExerciseDetailDataSourceTests.swift */; };
+		E212771C2B6A997B008FB247 /* ImageCollectionViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277102B6A997A008FB247 /* ImageCollectionViewCellTests.swift */; };
+		E212771D2B6A997B008FB247 /* ExerciseImagesTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277112B6A997A008FB247 /* ExerciseImagesTableViewCellTests.swift */; };
+		E212771E2B6A997B008FB247 /* ExerciseDetailTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277122B6A997A008FB247 /* ExerciseDetailTableViewControllerTests.swift */; };
+		E212771F2B6A997B008FB247 /* MainExerciseDetailUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277132B6A997A008FB247 /* MainExerciseDetailUseCaseTests.swift */; };
+		E21277202B6A997B008FB247 /* MainExerciseDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277142B6A997A008FB247 /* MainExerciseDetailViewModelTests.swift */; };
+		E21277212B6A997B008FB247 /* ExerciseDetailCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21277152B6A997A008FB247 /* ExerciseDetailCoordinatorTests.swift */; };
 		E2440B7B2B6A8FE70085792A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2440B7A2B6A8FE70085792A /* Assets.xcassets */; };
 		E2440B7E2B6A8FE80085792A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2440B7C2B6A8FE70085792A /* LaunchScreen.storyboard */; };
 		E2440BB12B6A902F0085792A /* HTTPDataRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440BA62B6A902F0085792A /* HTTPDataRequestClient.swift */; };
@@ -83,6 +94,17 @@
 		E21276F72B6A9899008FB247 /* ExerciseDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailTableViewController.swift; sourceTree = "<group>"; };
 		E21276F92B6A9899008FB247 /* MainExerciseDetailUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExerciseDetailUseCase.swift; sourceTree = "<group>"; };
 		E21276FB2B6A9899008FB247 /* ExerciseDetailFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailFactory.swift; sourceTree = "<group>"; };
+		E21277082B6A997A008FB247 /* MockExerciseDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockExerciseDetailViewModel.swift; sourceTree = "<group>"; };
+		E21277092B6A997A008FB247 /* MockExerciseDetailUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockExerciseDetailUseCase.swift; sourceTree = "<group>"; };
+		E212770B2B6A997A008FB247 /* MockExerciseDetailCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockExerciseDetailCoordinator.swift; sourceTree = "<group>"; };
+		E212770D2B6A997A008FB247 /* ExerciseImagesDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseImagesDataSourceTests.swift; sourceTree = "<group>"; };
+		E212770E2B6A997A008FB247 /* ExerciseDetailDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailDataSourceTests.swift; sourceTree = "<group>"; };
+		E21277102B6A997A008FB247 /* ImageCollectionViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCellTests.swift; sourceTree = "<group>"; };
+		E21277112B6A997A008FB247 /* ExerciseImagesTableViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseImagesTableViewCellTests.swift; sourceTree = "<group>"; };
+		E21277122B6A997A008FB247 /* ExerciseDetailTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailTableViewControllerTests.swift; sourceTree = "<group>"; };
+		E21277132B6A997A008FB247 /* MainExerciseDetailUseCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExerciseDetailUseCaseTests.swift; sourceTree = "<group>"; };
+		E21277142B6A997A008FB247 /* MainExerciseDetailViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExerciseDetailViewModelTests.swift; sourceTree = "<group>"; };
+		E21277152B6A997A008FB247 /* ExerciseDetailCoordinatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailCoordinatorTests.swift; sourceTree = "<group>"; };
 		E2440B6E2B6A8FE60085792A /* Gymondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2440B7A2B6A8FE70085792A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2440B7D2B6A8FE70085792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -230,6 +252,48 @@
 			path = Factory;
 			sourceTree = "<group>";
 		};
+		E21277062B6A997A008FB247 /* ExerciseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E21277072B6A997A008FB247 /* Mocks */,
+				E212770C2B6A997A008FB247 /* DataSource */,
+				E212770F2B6A997A008FB247 /* Cells */,
+				E21277122B6A997A008FB247 /* ExerciseDetailTableViewControllerTests.swift */,
+				E21277132B6A997A008FB247 /* MainExerciseDetailUseCaseTests.swift */,
+				E21277142B6A997A008FB247 /* MainExerciseDetailViewModelTests.swift */,
+				E21277152B6A997A008FB247 /* ExerciseDetailCoordinatorTests.swift */,
+			);
+			path = ExerciseDetail;
+			sourceTree = "<group>";
+		};
+		E21277072B6A997A008FB247 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E21277082B6A997A008FB247 /* MockExerciseDetailViewModel.swift */,
+				E21277092B6A997A008FB247 /* MockExerciseDetailUseCase.swift */,
+				E212770B2B6A997A008FB247 /* MockExerciseDetailCoordinator.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		E212770C2B6A997A008FB247 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E212770D2B6A997A008FB247 /* ExerciseImagesDataSourceTests.swift */,
+				E212770E2B6A997A008FB247 /* ExerciseDetailDataSourceTests.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E212770F2B6A997A008FB247 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E21277102B6A997A008FB247 /* ImageCollectionViewCellTests.swift */,
+				E21277112B6A997A008FB247 /* ExerciseImagesTableViewCellTests.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		E2440B652B6A8FE60085792A = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +325,7 @@
 		E2440B872B6A8FE80085792A /* GymondoTests */ = {
 			isa = PBXGroup;
 			children = (
+				E21277062B6A997A008FB247 /* ExerciseDetail */,
 				E2440CF12B6A958C0085792A /* ExercisesList */,
 				E2440BB82B6A90430085792A /* Libraries */,
 			);
@@ -624,22 +689,33 @@
 				E2440BCD2B6A90430085792A /* MockDecoder.swift in Sources */,
 				E2440CFA2B6A958C0085792A /* MockExercisesListUseCase.swift in Sources */,
 				E2440CFB2B6A958C0085792A /* MockMainExercisesImageHandler.swift in Sources */,
+				E212771F2B6A997B008FB247 /* MainExerciseDetailUseCaseTests.swift in Sources */,
 				E2440BCA2B6A90430085792A /* MockURLSession.swift in Sources */,
+				E21277202B6A997B008FB247 /* MainExerciseDetailViewModelTests.swift in Sources */,
 				E2440BD32B6A90430085792A /* ImageLoaderTests.swift in Sources */,
+				E212771C2B6A997B008FB247 /* ImageCollectionViewCellTests.swift in Sources */,
 				E2440BD22B6A90430085792A /* APIRequestTests.swift in Sources */,
+				E212771A2B6A997B008FB247 /* ExerciseImagesDataSourceTests.swift in Sources */,
 				E2440BCF2B6A90430085792A /* NetworkRequestTests.swift in Sources */,
 				E2440BD12B6A90430085792A /* CustomJSONDecoderTests.swift in Sources */,
 				E2440BCB2B6A90430085792A /* MockData.swift in Sources */,
 				E2440BC92B6A90430085792A /* MockDataRequest.swift in Sources */,
 				E2440BD42B6A90430085792A /* Extension.swift in Sources */,
 				E2440D022B6A965E0085792A /* AppConstantsTests.swift in Sources */,
+				E21277212B6A997B008FB247 /* ExerciseDetailCoordinatorTests.swift in Sources */,
 				E2440CFC2B6A958C0085792A /* MainExercisesImageHandler.swift in Sources */,
 				E2440BD02B6A90430085792A /* NetworkDataRequestTests.swift in Sources */,
+				E21277192B6A997B008FB247 /* MockExerciseDetailCoordinator.swift in Sources */,
 				E2440BCE2B6A90430085792A /* MockNetworkRequest.swift in Sources */,
+				E21277162B6A997B008FB247 /* MockExerciseDetailViewModel.swift in Sources */,
 				E2440CFD2B6A958C0085792A /* ExercisesListStoreTests.swift in Sources */,
 				E2440D002B6A95AD0085792A /* MockImageLoader.swift in Sources */,
+				E212771B2B6A997B008FB247 /* ExerciseDetailDataSourceTests.swift in Sources */,
 				E2440CFE2B6A958C0085792A /* MainExercisesListCoordinatorTests.swift in Sources */,
+				E212771E2B6A997B008FB247 /* ExerciseDetailTableViewControllerTests.swift in Sources */,
 				E2440BCC2B6A90430085792A /* MockAPIRequest.swift in Sources */,
+				E212771D2B6A997B008FB247 /* ExerciseImagesTableViewCellTests.swift in Sources */,
+				E21277172B6A997B008FB247 /* MockExerciseDetailUseCase.swift in Sources */,
 				E2440CF92B6A958C0085792A /* ExercisesListUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
