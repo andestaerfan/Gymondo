@@ -20,7 +20,7 @@ struct ExerciseImage: Decodable {
     let id: Int
     let image: String?
 }
-struct ExerciseViewModel {
+struct ExerciseViewModel: ExerciseItemViewModel {
     
     let id: Int
     let name: String

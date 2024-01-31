@@ -22,7 +22,15 @@ class AppCoordinator: NSObject, Coordinator {
     }
     
     func start() {
-        window.rootViewController = navigationController
+        let factory = ExercisesListFactory()
+        let store = factory.makeExercisesListStore()
+        let exerciseListCoordinator = MainExercisesListViewCoordinator(navigationController: navigationController,
+                                                              store: store)
+        childCoordinators = [exerciseListCoordinator]
+        exerciseListCoordinator.parentCoordinator = self
+        exerciseListCoordinator.start()
+        
+        window.rootViewController = exerciseListCoordinator.navigationController
         window.makeKeyAndVisible()
     }
 }
